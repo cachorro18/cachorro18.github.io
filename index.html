@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CARTA ❤️</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="envelope-wrapper">
+			<div class="envelope">
+				<div class="letter">
+					<div class="text">
+						<strong>For: Ale Valle (mi novia) 💕</strong>
+						<p>
+							<center><a href="https://open.spotify.com/intl-es/track/0YNtAadZvKBBEFARtfoCV8?si=864580bbbea6485d" style="color: rgb(204, 153, 204);">Hear Me</a></center>Tal vez no sepa expresar mis sentimientos de la mejor manera, pero te juro que te estoy tomando un amor muy grande. Aveces es dificil lidiar conmigo, pero quiero que te quedes conmigo. TE AMO MUCHOTE 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="heart"></div>
+		</div>
+	</div>
+	<script>
+		const envelope = document.querySelector('.envelope-wrapper');
+		envelope.addEventListener('click', () => {
+			envelope.classList.toggle('flap');
+		});
+	</script>
+</body>
+</html>
